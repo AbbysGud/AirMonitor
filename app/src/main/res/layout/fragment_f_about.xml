@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.fAbout"
+    android:background="@color/blue1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingVertical="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABOUT PAGE"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/profile_btn_aboutus"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                style="@style/RoundedButton2"
+                android:drawableStart="@drawable/baseline_groups_24"
+                android:drawablePadding="8dp"
+                android:gravity="start|center_vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingStart="30dp"
+                android:text="OUR TEAM"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/profile_btn_aboutproduct"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                style="@style/RoundedButton2"
+                android:drawableStart="@drawable/baseline_info_24"
+                android:drawablePadding="8dp"
+                android:gravity="start|center_vertical"
+                android:layout_gravity="center_vertical"
+                android:paddingStart="30dp"
+                android:text="OUR PRODUCT"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">AirMonitorApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">As fifth-semester informatics students immersed in the realm of IoT
+        programming, our mission to create an air quality monitoring system and a corresponding
+        mobile app is driven by a profound sense of purpose. We believe in the power of technology
+        to address critical environmental concerns and enhance human well-being. By providing
+        real-time air quality data, we aim to empower individuals, communities, and decision-makers
+        to make informed choices, ultimately fostering a healthier and cleaner environment. This
+        project encapsulates our commitment to environmental awareness, technological innovation,
+        and collaborative learning, all while leaving behind a legacy of sustainability for future
+        generations to build upon.
+        \n\n
+        Our project reflects our dedication to both the transformative potential of IoT programming
+        and the imperative of safeguarding human health and the environment. Through this endeavor,
+        we seek to create a lasting impact, making the world a better place by harnessing the
+        capabilities of technology for the greater good.</string>
+    <string name="location"><u>Nata Endah, Bandung</u></string>
+    <string name="rolepm100">Particulate matter with a diameter of 100 micrometers. Monitored for health
+        risks, originating from various sources. Monitoring essential
+        due to health risks from exposure, affecting respiratory and cardiovascular systems.</string>
+    <string name="whatpm100"><u>Good PM10.0 Levels:</u>
+        \n - 0.0 to 8.0 µg/m³: Excellent air quality, indicating very low particulate matter levels,
+        and a minimal health risk.
+        \n<u>Normal PM100 Levels:</u>
+        \n - 8.1 to 15.0 µg/m³: Moderate air quality, acceptable for most individuals, but those
+        with respiratory or heart conditions may experience health effects.
+        \n<u>Bad PM100 Levels:</u>
+        \n - above 15.1 µg/m³: Poor air quality, potentially harmful to health. Individuals,
+        especially those with respiratory or heart conditions, may experience adverse health effects.
+    </string>
+    <string name="rolelux">Measures the intensity of light. Crucial for human comfort, productivity,
+        and overall well-being. Extremes can impact health and living conditions.</string>
+    <string name="whatlux">
+        <u>Good Lux Levels:</u>
+        \n - 500 to 1000 lux: Optimal lighting for most indoor environments, promoting comfort and productivity.
+        \n<u>Normal Lux Levels:</u>
+        \n - 300 to 500 lux and 1000 to 1500 lux: Still within an acceptable range, but may be slightly dimmer or brighter than the optimal comfort zone.
+        \n<u>Bad Lux Levels:</u>
+        \n - Below 300 lux and above 1500 lux: Inadequate or excessive lighting, potentially leading to discomfort and adverse health effects.
+    </string>
+    <string name="rolech4">Methane gas, monitored for safety in various settings. Dangerous at high
+        levels, monitoring crucial for safety, especially in areas with potential methane sources.</string>
+    <string name="whatch4"><u>Good CH4 Levels:</u>
+        \n - 0 to 1 ppm: Normal outdoor air quality, indicating healthy and acceptable air.
+        \n<u>Normal CH4 Levels:</u>
+        \n - 1 to 2 ppm: Normal indoor air quality, still within an acceptable range.
+        \n - 2 to 5 ppm: Slightly elevated but still acceptable, may suggest increased methane sources or reduced ventilation.
+        \n<u>Bad CH4 Levels:</u>
+        \n - above 5 ppm: Elevated levels that may cause safety risks, especially indoors due to poor ventilation or high methane concentration.
+    </string>
+    <string name="roleco2">Naturally occurring gas, monitored for indoor air quality. Elevated
+        levels signal poor ventilation, impacting human health.</string>
+    <string name="whatco2"><u>Good CO2 Levels:</u>
+        \n - 400 to 450 pmm
+        \n - indicating healthy and acceptable air.
+        \n<u>Normal CO2 Levels:</u>
+        \n - 450 to 600 pmm: still within an acceptable range.
+        \n - 600 to 800 pmm: Slightly elevated but still acceptable, may suggest increased
+        occupancy or reduced ventilation.
+        \n<u>Bad CO2 Levels:</u>
+        \n - above 800 pmm: Elevated levels that may cause discomfort and drowsiness, especially
+        indoors due to poor ventilation or high occupancy.</string>
+    <string name="rolepm2.5">Tiny suspended particles from various sources. Monitoring essential
+        due to health risks from exposure, affecting respiratory and cardiovascular systems.</string>
+    <string name="whatpm2.5"><u>Good PM2.5 Levels:</u>
+        \n - 0.0 to 8.0 µg/m³: Excellent air quality, indicating very low particulate matter levels,
+        and a minimal health risk.
+        \n<u>Normal PM2.5 Levels:</u>
+        \n - 8.1 to 15.0 µg/m³: Moderate air quality, acceptable for most individuals, but those
+        with respiratory or heart conditions may experience health effects.
+        \n<u>Bad PM2.5 Levels:</u>
+        \n - above 15.1 µg/m³: Poor air quality, potentially harmful to health. Individuals,
+        especially those with respiratory or heart conditions, may experience adverse health effects.
+    </string>
+    <string name="rolepm10">Larger particles with a diameter of 10 micrometers. Monitored for health
+        risks, originating from sources like vehicle emissions and industrial processes.</string>
+    <string name="whatpm10">
+        <u>Good PM1.0 Levels:</u>
+        \n - 0.0 to 12.0 µg/m³: Excellent air quality, indicating very low particulate matter levels,
+        and a minimal health risk.
+        \n<u>Normal PM10 Levels:</u>
+        \n - 12.1 to 20.0 µg/m³: Moderate air quality, acceptable for most individuals, but those
+        with respiratory or heart conditions may experience health effects.
+        \n<u>Bad PM10 Levels:</u>
+        \n - above 20.1 µg/m³: Poor air quality, potentially harmful to health. Individuals,
+        especially those with respiratory or heart conditions, may experience adverse health effects.</string>
+    <string name="roletemp">Measures air warmth or coldness. Crucial for human comfort, energy
+        efficiency, and agriculture. Extremes impact health and living conditions.</string>
+    <string name="whattemp">
+        <u>Good Temperature Levels:</u>
+        \n - 20.0°C to 25.0°C: Comfortable and optimal temperature range for most indoor environments.
+        \n<u>Normal Temperature Levels:</u>
+        \n - 15.0°C to 20.0°C and 25.0°C to 30.0°C: Still within an acceptable range, but may be slightly cooler or warmer than the optimal comfort zone.
+        \n<u>Bad Temperature Levels:</u>
+        \n - Below 15.0°C and above 30.0°C: Uncomfortably cold or hot, potentially leading to discomfort and adverse health effects.
+    </string>
+    <string name="rolehum">Indicates air moisture. Maintaining humidity levels is crucial for indoor
+        air quality, preventing mold growth, and ensuring comfort and health.</string>
+    <string name="whathum">
+        <u>Good Humidity Levels:</u>
+        \n - 30.0% to 50.0%: Comfortable humidity range for most indoor environments, providing a pleasant and healthy atmosphere.
+        \n<u>Normal Humidity Levels:</u>
+        \n - 20.0% to 30.0% and 50.0% to 60.0%: Still within an acceptable range, but may be slightly drier or more humid than the optimal comfort zone.
+        \n<u>Bad Humidity Levels:</u>
+        \n - Below 20.0% and above 60.0%: Uncomfortably dry or humid, potentially leading to discomfort and adverse health effects.
+    </string>
+    <string-array name="explore_spinitem_card1">
+        <item>TEMP</item>
+        <item>HUM</item>
+        <item>LUX</item>
+        <item>CH4</item>
+        <item>PM1.0</item>
+        <item>PM10.0</item>
+        <item>PM2.5</item>
+        <item>CO2</item>
+    </string-array>
+    <string-array name="history_spinitem_card2">
+        <item>WEEKLY AIR QUALITY</item>
+        <item>MONTHLY AIR QUALITY</item>
+        <item>YEARLY AIR QUALITY</item>
+    </string-array>
+    <string name="esp32">mikrokontroler yang dikenalkan oleh Espressif System merupakan penerus
+        dari mikrokontroler ESP8266.
+    </string>
+    <string name="ldr">sensor suhu dan kelembapan digital kabel tunggal, yang menyediakan nilai suhu
+        dan kelembapan secara serial menggunakan protokol satu-kabel.
+    </string>
+    <string name="dht11">sensor cahaya yang akan berubah resistansinya saat terkena cahaya.
+        Prinsipnya sama dengan photodiode hanya bahan pembuatanya saja yang berbeda. Dapat digunakan
+        untuk mengetahui adanya cahaya atau intensitas cahaya dalam skala yang kecil.
+    </string>
+    <string name="dust">sensor suhu dan kelembapan digital kabel tunggal, yang menyediakan nilai
+        suhu dan kelembapan secara serial menggunakan protokol satu-kabel.
+    </string>
+    <string name="methane">Sensor gas metana adalah perangkat deteksi yang digunakan untuk
+        mendeteksi keberadaan gas metana di lingkungan. Berfungsi sebagai langkah pencegahan
+        kebakaran atau ledakan, sensor ini umumnya menggunakan prinsip katalitik atau elektrokimia
+        dan ditempatkan di berbagai lokasi, memberikan peringatan dini terhadap potensi risiko.
+    </string>
+    <string-array name="CO2_item">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+    <string name="AQI">The AQI is a numerical scale that quantifies the level of air pollution and its potential health effects. It is divided into different categories, each representing a range of AQI values and corresponding air quality conditions. The categories typically include:
+        \n
+        \n<b>- <u>0-50: Good</u></b>
+        \n   Air quality is considered satisfactory, and air pollution poses
+        \n   little or no risk.
+        \n
+        \n<b>- <u>51-100: Moderate</u></b>
+        \n   Air quality is acceptable; however, there may be some pollutants that pose a
+        \n   moderate health concern for a very small number of people who are
+        \n   unusually sensitive to air pollution.
+        \n
+        \n<b>- <u>101-150: Unhealthy for Sensitive Groups</u></b>
+        \n   Members of sensitive groups (e.g., individuals with respiratory or heart
+        \n   conditions, children, and older adults) may experience health effects, but the
+        \n   general public is less likely to be affected.
+        \n
+        \n<b>- <u>151-200: Unhealthy</u></b>
+        \n   Everyone may begin to experience adverse health effects, and members of
+        \n   sensitive groups may experience more serious effects.
+        \n
+        \n<b>- <u>201-300: Very Unhealthy</u></b>
+        \n   Health alert: everyone may experience more serious health effects.
+        \n
+        \n<b>- <u>   301 and above: Hazardous</u></b>
+        \n   Health warnings of emergency conditions; the entire population is likely to be
+        \n   affected.
+    </string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedButton">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="RoundedButton2">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/rounded_button2</item>
+        <item name="android:textColor">@color/blue3</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
